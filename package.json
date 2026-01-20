@@ -1,0 +1,23 @@
+{
+  "name": "electron-spotify-desktop-app",
+  "version": "1.0.0",
+  "description": "A Spotify clone desktop app with Electron",
+  "main": "index.js",
+  "scripts": {
+    "start" : "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikaOcko/spotify-desktop-app.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Kimberly Moreau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MikaOcko/spotify-desktop-app/issues"
+  },
+  "homepage": "https://github.com/MikaOcko/spotify-desktop-app#readme"
+}
