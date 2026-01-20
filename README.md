@@ -3,6 +3,7 @@
 
 ![Screenshot](/images/screenshot.png)
 
+## Ressources
 :tv: Video tutorial (youtube): [ASMR Programming - Spotify Desktop App - No Talking](https://www.youtube.com/watch?v=7bvocbK7CaI)
 :book: Electron documentation :[documentation](https://www.electronjs.org/docs/latest/)
 
@@ -44,4 +45,9 @@ If applicable, don't forget to update tests.
 
 ## License
 Distributed under the [MIT license](https://choosealicense.com/licenses/mit/)
+
+## Credits
+:: Images used :
+- [Unsplash](https://unsplash.com/) - photos from Martin Kallur, Birmingham Museums Trust
+- [Flaticon](https://www.flaticon.com/)
 
