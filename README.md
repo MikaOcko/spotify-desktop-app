@@ -4,7 +4,7 @@
 ![Screenshot](/images/screenshot.png)
 
 ## Ressources
-:tv: Video tutorial (youtube): [ASMR Programming - Spotify Desktop App - No Talking](https://www.youtube.com/watch?v=7bvocbK7CaI)
+:tv: Video tutorial (youtube): [ASMR Programming - Spotify Desktop App - No Talking](https://www.youtube.com/watch?v=7bvocbK7CaI) (3:11)
 :book: Electron documentation :[documentation](https://www.electronjs.org/docs/latest/)
 
 ## Badges
