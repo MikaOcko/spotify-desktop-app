@@ -2,7 +2,7 @@
   "name": "electron-spotify-desktop-app",
   "version": "1.0.0",
   "description": "A Spotify clone desktop app with Electron",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
