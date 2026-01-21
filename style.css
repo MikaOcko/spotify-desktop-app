@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 /*---------- General settings ----------*/
-
 :root{
     --black-color : #000;
     --white-color : #fff;
@@ -32,7 +31,16 @@ body{
 }
 
 /* ---------- Specific settings ---------- */
+.h-20 {
+    height: 20px;
+}
+
+.container {
+    height: 100vh;
+}
+
 .left {
+    height: 100%;
     width: 300px;
     background-color: var(--black-color);
     position: relative;
@@ -59,8 +67,49 @@ body{
 
 .menu ul {
     width: 100%;
+    overflow: hidden;
+}
+
+.menu ul *{
+    cursor: pointer;
+}
+
+.menu ul li {
+    padding-left: 0 !important;
+    padding: 5px;
 }
 
 .menu ul li img {
     width: 24px;
+}
+
+.menu ul li a {
+    color: var(--gray-color);
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a span {
+    padding-left: 8px;
+}
+
+.playlists{
+    font-weight: 400;
+}
+
+.playlists ul li {
+    padding-left: 0 !important;
+    padding: 5px;
+}
+
+.playlists ul li a span {
+    padding-left: 0px;
+    padding: 3px;
+}
+
+.current-song-cover img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
