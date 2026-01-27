@@ -44,7 +44,7 @@ Distributed under the [MIT license](https://choosealicense.com/licenses/mit/)
 
 ## Credits and ressources
 Ressources
-:tv: Video tutorial (youtube): [ASMR Programming - Spotify Desktop App - No Talking](https://www.youtube.com/watch?v=7bvocbK7CaI) (19:35)
+:tv: Video tutorial (youtube): [ASMR Programming - Spotify Desktop App - No Talking](https://www.youtube.com/watch?v=7bvocbK7CaI) (43:39)
 
 :clipboard: Electron documentation :[documentation](https://www.electronjs.org/docs/latest/)
 

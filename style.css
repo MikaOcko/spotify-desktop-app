@@ -270,3 +270,63 @@ body{
     top: -2px;
     margin-left: 20px;
 }
+
+.playlist-songs {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.playlist-songs table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.playlist-songs table tr:first-of-type {
+    border-bottom: 1px solid #cacaca;
+}
+
+.playlist-songs table th {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #cacaca;
+}
+
+.playlist-songs table th img {
+    width: 30px;
+    height: 30px;
+}
+
+.playlist-songs table td {
+    padding: 10px;
+    color: #cacaca;
+}
+
+.song-title {
+    display: flex;
+    flex-direction: row;
+}
+
+.song-image img {
+    width: 34px;
+    height: 34px;
+}
+
+.song-name, .footer-player-left-song-name {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--white-color);
+}
+
+.song-name-album {
+    padding-left: 15px;
+    letter-spacing: 0.5px;
+}
+.song-artist, .song-album, .song-date-added, .song-duration {
+    font-size: 14px;
+    margin-top: 6px;
+    color: #848485;
+}
