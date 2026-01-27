@@ -9,6 +9,7 @@
     --medium-gray-color: #b4b3b4;
     --dark-medium-gray-color: #787879;
     --dark-gray-color: #434343;
+    --green-color: #0bc346;
 }
 
 html, body, * {
@@ -126,7 +127,7 @@ body{
 .right{
     width: 100%;
 }
-
+/* Playlist header */
 .playlist-header {
     padding: 20px;
     background: var(--light-gray-color);
@@ -221,4 +222,51 @@ body{
 
 .playlist-stats span:first-of-type {
     font-weight: 1000;
+}
+
+/* Music playlist */
+.playlist-songs-container {
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    padding: 20px;
+    background: #5F5F60;
+    background: linear-gradient(180deg, rgba(95, 95, 96, 1) 0%, rgba(18, 18, 18, 1) 25%);
+}
+
+.playlist-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playlist-buttons img {
+    width: 30px;
+    height: 30px;
+}
+
+.playlist-buttons-left, .playlist-buttons-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playlist-buttons-resume-pause {
+    background-color: var(--green-color);
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playlist-buttons-like, .playlist-buttons-download, .playlist-buttons-three-dots {
+    margin-left: 20px;
+}
+
+.playlist-buttons-order {
+    color: #a9a9a9;
+    position: relative;
+    top: -2px;
+    margin-left: 20px;
 }
