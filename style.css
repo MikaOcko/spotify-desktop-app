@@ -325,8 +325,67 @@ body{
     padding-left: 15px;
     letter-spacing: 0.5px;
 }
-.song-artist, .song-album, .song-date-added, .song-duration {
+.song-artist, .song-album, .song-date-added, .song-duration, .footer-player-left-song-artist {
     font-size: 14px;
     margin-top: 6px;
     color: #848485;
+}
+
+/* Music player */
+.footer-player {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #181918;
+}
+
+.footer-player-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-player-left-like {
+    padding-left: 30px;
+}
+
+.footer-player-left-like img {
+    width: 21px;
+    height: 21px;
+}
+
+.footer-player-middle {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-player-middle-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-player-middle-buttons img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+}
+
+.pause-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color:  var(--green-color);
+    border-radius: 50%;
 }
