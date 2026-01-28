@@ -32,7 +32,7 @@ Once cloned, navigate to the project folder and open `index.html` in your prefer
 *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.*
 
 ## Roadmap
-No future developments are planned.
+[] optimize the project for Electron renderer window (size screen, zoom, etc).
 
 ## Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to modify.
@@ -44,7 +44,7 @@ Distributed under the [MIT license](https://choosealicense.com/licenses/mit/)
 
 ## Credits and ressources
 Ressources
-:tv: Video tutorial (youtube): [ASMR Programming - Spotify Desktop App - No Talking](https://www.youtube.com/watch?v=7bvocbK7CaI) (43:39)
+:tv: Video tutorial (youtube): [ASMR Programming - Spotify Desktop App - No Talking](https://www.youtube.com/watch?v=7bvocbK7CaI)
 
 :clipboard: Electron documentation :[documentation](https://www.electronjs.org/docs/latest/)
 
